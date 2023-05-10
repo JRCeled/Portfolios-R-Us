@@ -13,5 +13,22 @@ header {
     background-color: cornflowerblue;
     color: white;
     font-style: serif;
+    font-size: 200%;
 }
 
+ nav li{
+    display:inline;
+    font-style: serif;
+    align-items: center;
+    color: white;
+    font-size: 75%;
+}
+
+img{
+    width:75%;
+    length:75%;
+    position:center;
+    padding-left: 30%;
+    padding-top:2%;
+    padding-bottom: 5%;
+}
