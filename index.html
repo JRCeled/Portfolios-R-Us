@@ -27,7 +27,7 @@
         <section>
             <article>
                 <!-- Image was used from Google search, and reason for the size of the image being big is so that my header links can actually work and go to section without needing to zoom in so much-->
-                <img src="./assets/Images/Squirtle.JPG" width="100px" length="100px"; alt="My Avatar Image, Super Saiyan Blue Squirtle in Vegeta's Armor" />
+                <img id="Squirtle" src="./assets/Images/Squirtle.JPG" width="100px" length="100px"; alt="My Avatar Image, Super Saiyan Blue Squirtle in Vegeta's Armor" />
                 <h2 id="About Me">About Me</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate erat at euismod mollis. Donec tristique dictum lacus, in placerat sapien posuere non. Integer rhoncus scelerisque pellentesque. Maecenas vitae erat pellentesque, interdum lectus ac, ultrices lorem. Suspendisse quis accumsan nunc. Donec ullamcorper rutrum finibus. Donec hendrerit sed quam a mollis.
 
@@ -49,18 +49,68 @@
 
         <section>
             <h2 id="My Work Projects">My Work Projects</h2>
-            
+                <style>
+                    * {
+                        box-sizing: border-box;
+                    }
+                    .column{
+                        float:left;
+                        width:33%;
+                        padding:3px;
+                        
+                    }
 
+                    .row::after {
+                        content:"";
+                        clear: both;
+                        display: table;
+                    }
+                </style>
+                <div class="row">
+                <div class="column">
+                    <figure>
+                        <h1>Work Project 1</h1>
+                        <button><img id="SS" src="https://static.wikia.nocookie.net/dbz-dokkanbattle/images/6/6b/D1sl2cXUcAAvqik.jpg/revision/latest?cb=20190315162446" style="width: 100%" height="600px" alt="SS Vegeta" ></button><br/>
+                            
+                            
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure>
+                        <h1>Work Project 2</h1>
+                            <button><img id="SS2" src="https://preview.redd.it/qd65dk0es6o21.jpg?auto=webp&s=2ce2efd64d95f5e978a1fb5703c3e0f010a10a06" style="width: 100%" height="600px" alt="SS 2 Vegeta" ></button>
+                            
+                    </figure>
+                </div>
+                    <div class="column">
+                        <figure>
+                            <h1>Work Project 3</h1>
+                                <button> <img id="SS3" src="https://static.wikia.nocookie.net/dbz-dokkanbattle/images/9/9f/Card_1005730_artwork.png/revision/latest?cb=20200524130346" height="600px" style="width: 100%" alt="SS God Blue Vegeta" ></button><br/>
+                        </figure>
+                </div>
+                <div class="column">
+                        <figure>
+                            <h1>Work Project 4</h1>
+                                <button> <img id="SSG" src="https://pbs.twimg.com/media/Eb3GSGAWoAE0CZx?format=jpg&name=4096x4096" style="width: 100%" height="600px" alt="SS God Vegeta" ></button><br/> 
+                        </figure>
+                </div>
+                <div class="column">
+                    <figure>
+                        <h1>Work Project 5</h1>
+                            <button><img id="SSB" src="https://i.pinimg.com/originals/cc/2c/0c/cc2c0c1c4fa5bc9cc25573a6bf15b88f.jpg" style="width: 100%" height="600px" alt="SS God Blue Vegeta" ></button>
+                    </figure>
+                </div>
+                </div>
         </section>
 
-        <section>
-            <h2 id="Contact Me">Contact Me</h2>
+        <section class="Contact">
+            <h2 id="ContactMe">Contact Me</h2>
             <!--Referenced mozzilla.org/html and W3schools.com/html as the source for how to add link to a new website from my website.-->
             <a href="https://mail.google.com" target="_blank">My Gmail</a>
             <a href="https://www.linkedin.com" target="_blank">My Linkedin</a>
-            
+            <a href="#Top">Back to Top of Page</a>
         </section>
-        <a href="#Top">Back to Top of Page</a>
+        
     </main>
 
     <footer>

@@ -22,5 +22,6 @@ Project requires for our Portfolio website that we built to have working links, 
 Computerhope Website - https://www.computerhope.com/issues/ch000049.htm#opening 
 Mozzila HTML - https://developer.mozilla.org/en-US/docs/Web/HTML
 W3schools HTML - https://www.w3schools.com/html/default.asp 
-
+W3schools Side By Side Images - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_images_side_by_side 
+W3docs.com For Button hover actions - https://www.w3docs.com/snippets/css/how-to-change-cursor-on-hover-in-css.html#:~:text=%3E-,How%20to%20Change%20the%20Cursor%20of%20Hyperlink%20while%20Hovering,with%20the%20CSS%20%3Ahover%20selector. 
 🏆 

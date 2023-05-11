@@ -24,11 +24,72 @@ header {
     font-size: 75%;
 }
 
-img{
+#Squirtle{
     width:75%;
     length:75%;
     position:center;
     padding-left: 30%;
     padding-top:2%;
     padding-bottom: 5%;
+}
+
+#SSB{
+    border: 3px solid blue;
+    display:block ;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:active{
+    outline: 10px dashed purple;
+    border-radius: 15px;
+}
+
+#SSG{
+    border: 3px solid red;
+    display:block ;
+    
+    cursor: pointer;
+}
+
+
+#SS3{
+    border: 3px solid goldenrod;
+    display:block ;
+    width: 100%;
+    cursor: pointer;
+}
+
+#SS2{
+    border: 3px solid gold;
+    display:block ;
+    width: 100%;
+    cursor: pointer;
+}
+
+#SS{
+    border: 3px solid yellow;
+    display:block ;
+    width: 100%;
+    cursor: pointer;
+}
+
+.Contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: cornflowerblue;
+    color: white;
+    font-style: serif;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    font-style: serif;
 }
